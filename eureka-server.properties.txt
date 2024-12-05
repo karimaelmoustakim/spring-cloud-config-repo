@@ -1,0 +1,9 @@
+spring.application.name=server_eureka
+server.port=8761
+
+# Désactiver l'inscription de ce serveur comme client Eureka
+eureka.client.fetch-registry=false
+eureka.client.register-with-eureka=false
+
+# Désactiver la préservation automatique d'Eureka
+eureka.server.enable-self-preservation=false
